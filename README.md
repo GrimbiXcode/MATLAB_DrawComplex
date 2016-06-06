@@ -79,4 +79,4 @@ ylabel('imag(S) [var]');
 ![Image of output from example](/images/PrintedComplexPointer.jpg)
 
 ### Have fun!
-and please let me know about bugs or any suggestions,, thanks!
+and please let me know about bugs or any suggestions,thanks!
