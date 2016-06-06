@@ -24,7 +24,7 @@ nVarargs = length(varargin);
 grid on, axis equal;
 hold on;
     for k = 1:nVarargs
-    refStart=-(varargin{k}); arrow=(varargin{k});
+    refStart=(varargin{k}); arrow=-(varargin{k});
     quiver(real(refStart),imag(refStart),real(arrow),imag(arrow));
     end
 
