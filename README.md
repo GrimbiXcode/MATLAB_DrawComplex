@@ -76,7 +76,7 @@ ylabel('imag(S) [var]');
 ```
 
 #### Output:
-![Image of output from example](/images/PrintedComplexPointer.tiff)
+![Image of output from example](/images/PrintedComplexPointer.jpg)
 
 ### Have fun!
 and please let me know about bugs or any suggestions,, thanks!
