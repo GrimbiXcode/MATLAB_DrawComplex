@@ -58,13 +58,24 @@ complex_printangled(S);
 % ************************************************************************
 % Print vectors
 % ************************************************************************
+figure ('Name','Example script using draw function','NumberTitle','off',...
+    'Units','normalized','Position',[0.1 0.1 0.4 0.8]);
+
 subplot(2,1,1)
 zeigerplot_to_Origin(U1M,U2M,U3M);
-zeigerplot_orig_linked(-U1M,U12,U23,U31);
+zeigerplot_orig_linked(U3M,U12,U31,U23);
+title('Voltage U');
+xlabel('real(U) [V]');
+ylabel('imag(U) [V]');
+legend('U1M','U2M','U3M','U12','U31','U23');
 
 subplot(2,1,2)
 zeigerplot_linked(S1,S2,S3);
 zeigerplot_linked(S);
+title('Power S');
+xlabel('real(S) [W]');
+ylabel('imag(S) [var]');
+legend('S1','S2','S3');
 
 % ************************************************************************
 % End of Script
